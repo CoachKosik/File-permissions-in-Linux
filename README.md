@@ -9,26 +9,26 @@ Our research team needed to tighten security permissions for specific files and 
 
 ## Skills Learned
 
-Technical Skills:
+**Technical Skills:**
 
-*Linux Command Line: Proficiency in using basic Linux commands like ls, chmod, and cd to navigate the file system and modify permissions.
-*File Permission Understanding: Knowledge of file permission syntax (rwx) and how to modify permissions using the chmod command.
-*Security Best Practices: Awareness of security principles like least privilege and the importance of restricting file and directory access.
+* Linux Command Line: Proficiency in using basic Linux commands like ls, chmod, and cd to navigate the file system and modify permissions.
+* File Permission Understanding: Knowledge of file permission syntax (rwx) and how to modify permissions using the chmod command.
+* Security Best Practices: Awareness of security principles like least privilege and the importance of restricting file and directory access.
 
-Problem-Solving and Analytical Skills:
+**Problem-Solving and Analytical Skills:**
 
-*Identifying Security Risks: The ability to assess the security implications of file and directory permissions and identify potential vulnerabilities.
-*Troubleshooting: The skill to diagnose permission-related issues and implement appropriate solutions.
-*Critical Thinking: The capacity to evaluate different approaches to file permissions and select the most secure and practical method.
+* Identifying Security Risks: The ability to assess the security implications of file and directory permissions and identify potential vulnerabilities.
+* Troubleshooting: The skill to diagnose permission-related issues and implement appropriate solutions.
+* Critical Thinking: The capacity to evaluate different approaches to file permissions and select the most secure and practical method.
 
 ## Tools Used
 
 The primary tool used in this project is the Linux command line. Specifically, the following commands were utilized:
 
 * ls -la: This command lists files and directories in a long format, including permissions, owner, group, size, modification date, and filename. It's essential for understanding the current permissions of files and directories.
-* chmod: This command is used to change file permissions. It allows you to modify read, write, and execute permissions for the owner, group, and others.
+* chmod: This command is used to change file permissions. It allows for the modification reading, writing, and execute permissions for the owner, group, and others.
 
-By effectively using these commands, you were able to:
+By effectively using these commands, I was able to:
 
 * Assess current permissions: Identify any security vulnerabilities or misconfigurations.
 * Modify permissions: Adjust permissions to align with security policies and protect sensitive data.
