@@ -109,7 +109,3 @@ The output shows file and directory permissions. The current directory (projects
 ### Summary
 
 I meticulously reviewed and adjusted file and directory permissions within the projects directory to align with organizational security standards. By leveraging the `ls -la` command, I gained a comprehensive understanding of existing permissions, enabling me to make informed decisions. The `chmod` command was instrumental in implementing the necessary adjustments, ensuring that access was granted only to authorized individuals.
-
-## Materials Provided
-<a href="https://docs.google.com/document/d/12wldwY7MB49m1PgouLjjarlcc1Ty1pf3FqNOfK4RBQE/edit?usp=sharing">File permissions in Linux</a><br>
-<a href="https://docs.google.com/document/d/1sBEeC5_8Uf_sHgOabpFd497VMQIm_Q3h/edit?usp=sharing&ouid=105064495821226407439&rtpof=true&sd=true">Current file permissions of the /home/researcher2/projects directory</a>
