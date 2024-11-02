@@ -7,38 +7,34 @@ This project aimed to enhance the security posture of the project directory by i
 ## Project description
 Our research team needed to tighten security permissions for specific files and directories within our project directory. To ensure the system's integrity, I reviewed the current permissions and made necessary adjustments. This involved:
 
-
-
 ## Skills Learned
 
-1. **Network Traffic Analysis:**
-   * Interpret network traffic logs, identifying protocols like TCP, UDP, HTTP, and ICMP.
-   * Recognize patterns in network traffic data, such as SYN floods or unreachable ports, to identify potential security incidents.
-   * Utilize tools like tcpdump to capture and analyze network traffic for investigation purposes.
+Technical Skills:
 
-2. **Incident Response Procedures:**
-   * Understand the importance of identifying the type of cyberattack impacting a system.
-   * Explain the technical details of specific attacks, such as SYN floods and DNS server issues.
-   * Differentiate between different network protocols and their roles in security breaches.
+*Linux Command Line: Proficiency in using basic Linux commands like ls, chmod, and cd to navigate the file system and modify permissions.
+*File Permission Understanding: Knowledge of file permission syntax (rwx) and how to modify permissions using the chmod command.
+*Security Best Practices: Awareness of security principles like least privilege and the importance of restricting file and directory access.
 
-3. **Security Best Practices:**
-   * Identify security vulnerabilities, such as weak password policies or misconfigured firewalls.
-   * Recommend appropriate remediation strategies for identified vulnerabilities.
-   * Understand the importance of strong password policies, including password complexity, regular updates, and account lockout mechanisms.
+Problem-Solving and Analytical Skills:
 
-4. **Technical Communication:**
-   * Document technical information in a clear and concise manner for both technical and non-technical audiences.
-   * Explain complex cybersecurity concepts in an understandable way.
-   * Effectively structure incident reports, including sections for problem identification, analysis, and remediation.
-
-5. **Digital Forensics:**
-   * Familiar with collecting and preserving digital evidence for security investigations.
-   * Analyze network traffic logs and other digital artifacts to identify the root cause of an incident.
+*Identifying Security Risks: The ability to assess the security implications of file and directory permissions and identify potential vulnerabilities.
+*Troubleshooting: The skill to diagnose permission-related issues and implement appropriate solutions.
+*Critical Thinking: The capacity to evaluate different approaches to file permissions and select the most secure and practical method.
 
 ## Tools Used
-* **Log Analysis:** Examining logs from various sources like web servers, firewalls, and DNS servers can provide valuable insights into network activity and potential security incidents.
-* **Source Code Analysis:** Examining the source code of websites and applications can help identify vulnerabilities or malicious code injected by attackers.
 
+The primary tool used in this project is the Linux command line. Specifically, the following commands were utilized:
+
+* ls -la: This command lists files and directories in a long format, including permissions, owner, group, size, modification date, and filename. It's essential for understanding the current permissions of files and directories.
+* chmod: This command is used to change file permissions. It allows you to modify read, write, and execute permissions for the owner, group, and others.
+
+By effectively using these commands, you were able to:
+
+* Assess current permissions: Identify any security vulnerabilities or misconfigurations.
+* Modify permissions: Adjust permissions to align with security policies and protect sensitive data.
+* Verify changes: Use the ls -la command to confirm that permissions were modified as intended.
+
+These commands are fundamental to Linux system administration and security, and their effective use demonstrates understanding of file permissions and how to secure file systems.
 
 ## Steps
 ### **Check file and directory details**
